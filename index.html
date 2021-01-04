@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RegExp__form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="form-box">
+                <label for="input__login">Login</label>
+                <input class="input__login" type="text" placeholder="Enter login" required>
+            </div>
+            <div class="form-box">
+                <label for="input__email">Email address</label>
+                <input class="input__email" type="email" placeholder="Enter email" required>
+            </div>
+            <div class="form-box">
+                <label for="input__password">Password</label>
+                <input class="input__password" type="password" placeholder="Enter password">
+            </div>
+            <div>
+                <button class="button">Add user</button>
+                <button class="buttonUserEdit">Edit user</button>
+            </div>
+        </div>
+
+        <table class="tabel">
+            <thead class="tabel__thead">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Login</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Password</th>
+                    <th scope="col">Edit</th>
+                    <th scope="col">Delete</th>
+                </tr>
+            </thead>
+            <tbody class="tabel__tbody"></tbody>
+        </table>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

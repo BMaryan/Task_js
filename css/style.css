@@ -1,0 +1,152 @@
+body {}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    margin: 50px auto;
+}
+
+
+/*               form                */
+
+.form {
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+
+.form-box label {
+    font-family: "-webkit-pictograph";
+    font-size: 17px;
+}
+
+.form-box input {
+    height: 40px;
+    width: 95%;
+    font-size: 15px;
+    font-family: "-webkit-pictograph";
+    border: 1.9px solid rgb(161, 157, 157);
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    margin: 10px 0 15px 0;
+    transition: .5s;
+}
+
+.form-box input:focus {
+    border: 1px solid rgb(127, 168, 223);
+    box-shadow: 0 0 3px 3px rgb(152, 179, 214);
+    transition: .5s;
+}
+
+.button {
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+    padding: 9px 15px;
+    transition: 1s;
+}
+
+.button:hover {
+    color: white;
+    background: green;
+    border: 1px solid rgb(0, 65, 0);
+    box-shadow: 0 0 3px 3px rgb(100, 218, 110);
+    transition: 1s;
+}
+
+.buttonUserEdit {
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    outline: none;
+    display: none;
+    padding: 9px 15px;
+    transition: 1s;
+}
+
+.buttonUserEdit:hover {
+    color: white;
+    background: green;
+    border: 1px solid rgb(0, 65, 0);
+    box-shadow: 0 0 3px 3px rgb(100, 218, 110);
+    transition: 1s;
+}
+
+
+/*              tabel                */
+
+.tabel {
+    width: 95%;
+}
+
+.tabel__thead th {
+    border-top: 2px solid rgb(161, 157, 157);
+    border-bottom: 2px solid rgb(161, 157, 157);
+}
+
+th,
+td {
+    padding: 10px 15px;
+}
+
+
+/* button edit */
+
+.buttonEdit {
+    height: 40px;
+    width: 50px;
+    background: rgb(248, 169, 21);
+    font-family: "-webkit-pictograph";
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+
+.buttonEdit:hover {
+    background: rgb(218, 183, 115);
+    transition: 1s;
+}
+
+.buttonEdit:focus {
+    box-shadow: 0 0 3px 1px rgb(233, 170, 53);
+    transition: .5s;
+}
+
+
+/* button delete */
+
+.buttonDelete {
+    height: 40px;
+    width: 70px;
+    color: white;
+    background: rgb(230, 68, 56);
+    font-family: "-webkit-pictograph";
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+
+.buttonDelete:hover {
+    background: rgb(219, 94, 85);
+}
+
+.buttonDelete:focus {
+    box-shadow: 0 0 3px 1px rgb(224, 82, 72);
+    transition: .5s;
+}
